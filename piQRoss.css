@@ -1,0 +1,67 @@
+* {
+	margin:0;
+	font-family: monospace;
+	font-size:22px;
+}
+table {
+    margin: 0;
+    padding: 0;
+	border-collapse: collapse;
+	table-layout:fixed;
+}
+tr, td, th {
+	border: 2px solid lightgray;
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+	min-width: 25px;
+   	max-width: 25px;
+}
+#piQRoss {
+	overflow-x: scroll;
+    white-space: nowrap;
+}
+
+#bottomFlex {
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+	justify-content: flex-end;
+}
+#topFlex {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#qrtable {
+	margin-left: 50px;
+}
+
+#hintsV {
+	display:flex;
+	align-items: flex-end;
+	align-self: flex-end;
+}
+
+.hintCol {
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	text-align: center;
+}
+
+#hintsH {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.hintRow {
+	display: flex;
+	justify-content: flex-end;
+}
+.hintRow > .hint {
+	margin-left: 10px;
+}
